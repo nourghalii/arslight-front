@@ -10,6 +10,7 @@ import { GestionEnseignantComponent } from './components/gestion-enseignant/gest
 import { CoursesComponent } from './components/courses/courses.component';
 import { ListStudentsComponent } from './components/list-students/list-students.component';
 import { ReviewsComponent } from './components/reviews/reviews.component';
+import { CreateCourseComponent } from './components/create-course/create-course.component';
 
 
 const routes: Routes = [
@@ -22,7 +23,8 @@ const routes: Routes = [
   {path:'gestion-enseignant', component:GestionEnseignantComponent},
   {path:'courses', component:CoursesComponent},
   {path:'list-students',component:ListStudentsComponent},
-  {path:'reviews',component:ReviewsComponent}
+  {path:'reviews',component:ReviewsComponent},
+  {path:'create-course',component:CreateCourseComponent}
 
 
 

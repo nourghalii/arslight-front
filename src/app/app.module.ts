@@ -13,6 +13,7 @@ import { GestionEnseignantComponent } from './components/gestion-enseignant/gest
 import { CoursesComponent } from './components/courses/courses.component';
 import { ListStudentsComponent } from './components/list-students/list-students.component';
 import { ReviewsComponent } from './components/reviews/reviews.component';
+import { CreateCourseComponent } from './components/create-course/create-course.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ReviewsComponent } from './components/reviews/reviews.component';
     GestionEnseignantComponent,
     CoursesComponent,
     ListStudentsComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    CreateCourseComponent
   ],
   imports: [
     BrowserModule,
