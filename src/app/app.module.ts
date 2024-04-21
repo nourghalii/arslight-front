@@ -14,6 +14,14 @@ import { CoursesComponent } from './components/courses/courses.component';
 import { ListStudentsComponent } from './components/list-students/list-students.component';
 import { ReviewsComponent } from './components/reviews/reviews.component';
 import { CreateCourseComponent } from './components/create-course/create-course.component';
+import { TestGame1Component } from './components/test-game1/test-game1.component';
+import { TestGame2Component } from './components/test-game2/test-game2.component';
+import { TestGame3Component } from './components/test-game3/test-game3.component';
+import { NaturalWorldComponent } from './components/natural-world/natural-world.component';
+import { TestGame4Component } from './components/test-game4/test-game4.component';
+import { TestGame5Component } from './components/test-game5/test-game5.component';
+import { TestGame6Component } from './components/test-game6/test-game6.component';
+import { Parrot1Component } from './components/parrot1/parrot1.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +36,15 @@ import { CreateCourseComponent } from './components/create-course/create-course.
     CoursesComponent,
     ListStudentsComponent,
     ReviewsComponent,
-    CreateCourseComponent
+    CreateCourseComponent,
+    TestGame1Component,
+    TestGame2Component,
+    TestGame3Component,
+    NaturalWorldComponent,
+    TestGame4Component,
+    TestGame5Component,
+    TestGame6Component,
+    Parrot1Component
   ],
   imports: [
     BrowserModule,

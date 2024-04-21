@@ -1,0 +1,38 @@
+.puzzle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-panel, .right-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .center-panel {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .drop-zone {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #aaa;
+    margin: 10px;
+    position: relative; /* Assurez-vous que les zones de dépôt sont positionnées relativement */
+  }
+  
+  .dragged-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .response-message {
+    text-align: center;
+  }
+  
