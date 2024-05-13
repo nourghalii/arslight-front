@@ -19,6 +19,17 @@ import { TestGame4Component } from './components/test-game4/test-game4.component
 import { TestGame5Component } from './components/test-game5/test-game5.component';
 import { TestGame6Component } from './components/test-game6/test-game6.component';
 import { Parrot1Component } from './components/parrot1/parrot1.component';
+import { Cats1Component } from './components/cats1/cats1.component';
+import { Cats2Component } from './components/cats2/cats2.component';
+import { Cats3Component } from './components/cats3/cats3.component';
+import { Cats4Component } from './components/cats4/cats4.component';
+import { ExerciceCharacterComponent } from './components/exercice-character/exercice-character.component';
+import { QuestionComponent } from './components/quiz/question/question.component';
+import { ResultComponent } from './components/quiz/result/result.component';
+import { DyslexiaTestComponent } from './components/quiz/dyslexia-test/dyslexia-test.component';
+import { SpeechToTextComponent } from './components/speech-to-text/speech-to-text.component';
+import { SchoolCoursesComponent } from './components/school-courses/school-courses.component';
+import { Level1Component } from './components/level1/level1.component';
 
 
 const routes: Routes = [
@@ -40,7 +51,18 @@ const routes: Routes = [
   {path:'test-game4', component:TestGame4Component},
   {path:'test-game5', component:TestGame5Component},
   {path:'test-game6',component:TestGame6Component},
-  {path:'parrot1',component:Parrot1Component}
+  {path:'parrot1',component:Parrot1Component},
+  {path:'cats1',component:Cats1Component},
+  {path:'cats2',component:Cats2Component},
+  {path:'cats3',component:Cats3Component},
+  {path:'cats4',component:Cats4Component},
+  {path:'exercice-character',component:ExerciceCharacterComponent},
+  { path: 'question/:id', component: QuestionComponent },
+  {path:'result', component:ResultComponent},
+  {path:'dyslexia-test', component:DyslexiaTestComponent},
+  {path:'speechToText',component:SpeechToTextComponent},
+  {path:'school-courses',component:SchoolCoursesComponent},
+  {path:'level1', component:Level1Component}
 
 
 

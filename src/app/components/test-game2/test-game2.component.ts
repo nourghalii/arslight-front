@@ -21,7 +21,7 @@ export class TestGame2Component {
 
     this.selectedOption = option;
     if (option === 'assets/images/games/option3.png') {
-      // Jouer le son d'erreur
+      // Jouer le son correct
       let CorrectSound = new Audio();
       CorrectSound.src = "assets/sounds/correct.mp3"; // Chemin vers votre fichier audio d'erreur
       CorrectSound.load();

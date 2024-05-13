@@ -1,0 +1,9 @@
+<div class="question-container">
+    <h2>{{ question }}</h2>
+    <ul>
+      <li *ngFor="let option of options">
+        <button class="option-button" (click)="answerQuestion(option)">{{ option }}</button>
+      </li>
+    </ul>
+  </div>
+  

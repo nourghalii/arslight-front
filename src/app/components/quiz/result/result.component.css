@@ -1,0 +1,21 @@
+.result-container {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-details {
+    margin-top: 20px;
+  }
+  
+  .result-details p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  /* Dans le fichier CSS correspondant */
+.page-container {
+    background-color: #f5f5f5;
+  }
+  

@@ -26,7 +26,13 @@ export class TestGame1Component {
   
     // Vérifier si une option a été sélectionnée
     if (this.selectedOption) {
-      
+
+      // Jouer le son correct
+      let CorrectSound = new Audio();
+      CorrectSound.src = "assets/sounds/correct.mp3"; // Chemin vers votre fichier audio d'erreur
+      CorrectSound.load();
+      CorrectSound.play();
+      this.progressCounter++;
       this.showResponseMessage = true;
       setTimeout(() => {
         console.log('Redirecting to next interface...');
@@ -44,32 +50,10 @@ export class TestGame1Component {
 
   closePage() {
     // Mettez ici le code pour fermer la page, par exemple :
-    this.router.navigate(['/home-enfant']); // Rediriger vers la page d'accueil
+    this.router.navigate(['/natural-world']); // Rediriger vers la page d'accueil
   }
 
-/* 
-   selectOption(option: string) {
-    this.selectedOption = option;
-    if (option === 'Correct Answer') {
-      this.feedbackMessage = 'Good job!';
-      this.progressCounter++; // Incrémenter le compteur de progression
 
-      this.router.navigate(['/next-interface']);
-    } else {
-      // Vibrate the page
-      if (window.navigator.vibrate) {
-        window.navigator.vibrate(200); // Vibrate for 200ms
-      } else {
-        console.log("Vibration is not supported on this browser.");
-      }
-      // Show error message
-      this.feedbackMessage = 'Oops! Try again.';
-
-
-    }
-  }  */
-
-  
 }
 
 
