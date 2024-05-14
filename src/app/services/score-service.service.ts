@@ -6,19 +6,19 @@ import { Injectable } from '@angular/core';
 export class ScoreServiceService {
   score: number = 0;
   questions: string[] = [
-    "Durant la lecture... Vous hésitez beaucoup et manquez de fluidité lors de la lecture.",
-    "Durant la lecture... Vous pouvez lire et relire de nombreuses fois une phrase, ou même un paragraphe, sans le comprendre.",
+    "During reading... You hesitate a lot and lack fluency while reading.",
+    "During reading... You may read and reread a sentence or even a paragraph many times without understanding it.",
     
     
-    "Durant la lecture...Vous avez des difficultés pour comprendre un texte et le reformuler.",
-    "Lors de l'écriture...Vous écrivez souvent comme vous entendez, sans tenir compte de l’orthographe. ",
-    "Lors de l'écriture, Vous avez des difficultés à séparer correctement les mots les uns des autres.",
+    "During reading... You have difficulty understanding a text and paraphrasing it.",
+    "When writing... You often write as you hear, disregarding spelling.",
+    "When writing... You have difficulty properly separating words from each other.",
     
     
-    "Lors de l'écriture... Vous avez tendance à inverser certaines lettres : b/p q/d",
-    "A l'école... Vous avez du mal à apprendre de nouvelles compétences, en lisant un cours en ligne par exemple, et avez du mal à vous en souvenir. ",
-    "A l'école...Vous pouvez ne pas comprendre des consignes en les lisant vous-même alors que vous les comprenez parfaitement lorsque quelqu’un lit le même texte à haute voix",
-    "Vous êtes en difficulté dans les tâches où il est important de bien comprendre les textes que vous avez sous les yeux"
+    "When writing... You tend to reverse certain letters: b/p q/d.",
+    "At school... You struggle to learn new skills, such as reading an online course, and have difficulty remembering them. ",
+    "At school... You may not understand instructions when reading them yourself, but understand them perfectly when someone reads the same text aloud.",
+    "You have difficulty in tasks where it's important to understand the texts you have in front of you."
 
 
 
@@ -43,13 +43,13 @@ export class ScoreServiceService {
 
     for (let i = 0; i < selectedOptions.length; i++) {
       switch (selectedOptions[i]) {
-        case 'Jamais':
+        case 'Never':
           jamaisCount++;
           break;
-        case 'Parfois':
+        case 'Sometimes':
           parfoisCount++;
           break;
-        case 'Très souvent':
+        case 'Very Often':
           tresSouventCount++;
           break;
       }
