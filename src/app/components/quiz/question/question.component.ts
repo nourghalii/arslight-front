@@ -11,7 +11,7 @@ export class QuestionComponent implements OnInit {
   question: string = '';
   question2: string = '';
 
-  options: string[] = ['Jamais', 'Parfois', 'Très souvent'];
+  options: string[] = ['Never', 'Sometimes', 'Very Often'];
   selectedOption: string = '';
   currentQuestionId: number = 1;
 
@@ -49,11 +49,11 @@ export class QuestionComponent implements OnInit {
 
   calculateScore(option: string): number {
     switch (option) {
-      case 'Jamais':
+      case 'Never':
         return 0;
-      case 'Parfois':
+      case 'Sometimes':
         return 1;
-      case 'Très souvent':
+      case 'Very Often':
         return 2;
       default:
         return 0;
@@ -67,11 +67,11 @@ export class QuestionComponent implements OnInit {
 
   getButtonColor(option: string): string {
     switch (option) {
-      case 'Jamais':
+      case 'Never':
         return 'red';
-      case 'Parfois':
+      case 'Sometimes':
         return 'orange';
-      case 'Très souvent':
+      case 'Very Often':
         return 'green';
       default:
         return '';
