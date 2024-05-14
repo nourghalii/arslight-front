@@ -32,6 +32,8 @@ import { SpeechToTextComponent } from './components/speech-to-text/speech-to-tex
 import { SpeechToTextArComponent } from './components/speech-to-text-ar/speech-to-text-ar.component';
 import { SchoolCoursesComponent } from './components/school-courses/school-courses.component';
 import { Level1Component } from './components/level1/level1.component';
+import { AssociationImagesComponent } from './components/association-images/association-images.component';
+import { Level2Component } from './components/level2/level2.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +63,9 @@ import { Level1Component } from './components/level1/level1.component';
     SpeechToTextComponent,
     SpeechToTextArComponent,
     SchoolCoursesComponent,
-    Level1Component
+    Level1Component,
+    AssociationImagesComponent,
+    Level2Component
   ],
   imports: [
     BrowserModule,

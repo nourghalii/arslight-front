@@ -30,6 +30,8 @@ import { DyslexiaTestComponent } from './components/quiz/dyslexia-test/dyslexia-
 import { SpeechToTextComponent } from './components/speech-to-text/speech-to-text.component';
 import { SchoolCoursesComponent } from './components/school-courses/school-courses.component';
 import { Level1Component } from './components/level1/level1.component';
+import { AssociationImagesComponent } from './components/association-images/association-images.component';
+import { Level2Component } from './components/level2/level2.component';
 
 
 const routes: Routes = [
@@ -62,8 +64,9 @@ const routes: Routes = [
   {path:'dyslexia-test', component:DyslexiaTestComponent},
   {path:'speechToText',component:SpeechToTextComponent},
   {path:'school-courses',component:SchoolCoursesComponent},
-  {path:'level1', component:Level1Component}
-
+  {path:'level1', component:Level1Component},
+  {path:'associationImages',component:AssociationImagesComponent},
+  {path:'level2',component:Level2Component}
 
 
 

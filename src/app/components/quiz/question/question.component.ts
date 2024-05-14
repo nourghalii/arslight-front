@@ -65,6 +65,20 @@ export class QuestionComponent implements OnInit {
     return `Question ${questionId}`;
   }
 
-
+  getButtonColor(option: string): string {
+    switch (option) {
+      case 'Jamais':
+        return 'red';
+      case 'Parfois':
+        return 'orange';
+      case 'Très souvent':
+        return 'green';
+      default:
+        return '';
+    }
+  }
+  
+  
+  
   
 }
